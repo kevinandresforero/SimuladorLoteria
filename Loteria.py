@@ -20,8 +20,7 @@ i = 1
 while comparador != numero:
     comparador = randint(1000000, 9999999)
     i = i + 1
-    print("Comparador: ", comparador)
-    print("i: ", i)
+    print("Intento: ", i)
 
 print("Ganó en el intento: ", i, " con el número: ", comparador)
 
