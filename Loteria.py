@@ -15,10 +15,10 @@ def consultar():
     while comparador != numero:
         comparador = randint(1000000, 9999999)
         i = i + 1
-        contador.set(i)
+        contador.set(f"Intento: {i}")
         print(i)
     
-    resultado.set(f"Ganó en el intento {i} con el número: {comparador}")
+    resultado.set(f"Gana en el intento {i} con el numero {comparador}")
 
 def cerrar():
     marco.destroy()
@@ -54,4 +54,3 @@ marco.mainloop()
 Created on Thu Mar 12 09:42:28 2020
 @author: Dragesteban
 """
-
